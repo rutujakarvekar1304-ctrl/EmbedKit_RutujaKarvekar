@@ -1,19 +1,13 @@
-# EmbedKit
+# EmbedKit_RutujaKarvekar
 
-Author: Rutuja Karvekar
+**Name:** Rutuja Karvekar
 
-## Description
+## Build Instructions
 
-EmbedKit is a collection of embedded C modules implemented as
-standalone programs.
+```bash
+gcc -Wall -std=c99 ringbuf.c -o ringbuf
+```
 
-## Build
+## Module
 
-Compile using:
-
-gcc -Wall -std=c99 filename.c -o filename
-
-## Modules
-
-- Ring Buffer - Circular buffer implementation
-- [Add your other modules here]
+**ringbuf.c** — Implements a fixed-capacity 8-byte circular buffer for `uint8_t` data.
